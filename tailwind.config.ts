@@ -1,4 +1,7 @@
 import type { Config } from 'tailwindcss'
+import { colorBackground, colorPrimary, colorSecondary, colorText } from './app/globals/defaults'
+
+const colors = require('tailwindcss/colors')
 
 const config: Config = {
   content: [
@@ -13,6 +16,17 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'primary': colorPrimary,
+        'secondary': colorSecondary,
+        'colorText': colorText,
+        'colorBackground': colorBackground,
+        ...colors
+      },
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
     },
   },
   plugins: [],
