@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   description: 'Experience Total Security & Digital Excellence with our CCTV, Alarms, Website, and Software Solutions. Trust us for Your Protection and Online Growth. Contact us now!',
 }
 
+import { Analytics } from '@vercel/analytics/react';
+
 export default function RootLayout({
   children,
 }: {
@@ -23,6 +25,7 @@ export default function RootLayout({
         <Navigation />
         <Main>{children}</Main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
