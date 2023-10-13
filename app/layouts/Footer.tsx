@@ -20,7 +20,7 @@ export default function Footer() {
                     <Col type='content'>
                         <div className={`flex ${gapLayout} items-center`}>
                             <Link href={'/'} className={`w-max h-full flex justify-center items-center`}>
-                                <Image unoptimized={true} src={`/for_dark_backgrounds_no_padding.png`} alt="XNC Logo" width={200} height={200} />
+                                <Image src={`/for_dark_backgrounds_no_padding.png`} alt="XNC Logo" width={200} height={200} />
                             </Link>
                         </div>
                         <Paragraph className='text-sm text-primary w-72'>{`Empowering Homes and Businesses with industry leading Security & Digital Solutions.`}</Paragraph>
@@ -76,7 +76,7 @@ export default function Footer() {
                         </Title>
                     </Col>
                 </Row>
-                {/* <Image unoptimized={true} src={'/network_texture_v1.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" /> */}
+                {/* <Image  src={'/network_texture_v1.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" /> */}
             </Box>
         )
     }

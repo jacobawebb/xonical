@@ -20,7 +20,7 @@ export default function Home() {
             <Button href="/">Learn more <ChevronRight size={iconSize} /></Button>
           </div>
           <div className="absolute z-40 bg-gradient-to-r from-colorBackground to-transparent rounded-lg w-full h-full left-0 bottom-0"></div>
-          <Image unoptimized={true} src="/textures/texture_5.png" alt="network" className="rounded-lg object-cover z-0" fill />
+          <Image src="/textures/texture_5.png" alt="network" className="rounded-lg object-cover z-0" fill />
         </Box>
       </Row>
       <Col type="layout">
@@ -45,7 +45,7 @@ export default function Home() {
                     </Col>
                     <Button href="/security/cctv">CCTV services <ChevronRight size={iconSize} /></Button>
                   </Col>
-                  <Image unoptimized={true} src={'/textures/texture_1.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
+                  <Image src={'/textures/texture_1.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
                 </Box>
                 <Box background="light" className="basis-full xl:basis-1/3">
                   <Col type="content" className="z-50">
@@ -56,7 +56,7 @@ export default function Home() {
                     </Col>
                     <Button href="/security/alarms">Alarm systems <ChevronRight size={iconSize} /></Button>
                   </Col>
-                  <Image unoptimized={true} src={'/textures/texture_3.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
+                  <Image src={'/textures/texture_3.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
                 </Box>
                 <Box background="light" className="basis-full xl:basis-1/3">
                   <Col type="content" className="z-50">
@@ -67,7 +67,7 @@ export default function Home() {
                     </Col>
                     <Button href="/security/access-control">Access Control solutions <ChevronRight size={iconSize} /></Button>
                   </Col>
-                  <Image unoptimized={true} src={'/textures/texture_2.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
+                  <Image src={'/textures/texture_2.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
                 </Box>
               </Row>
             </Col>
@@ -95,7 +95,7 @@ export default function Home() {
                     </Col>
                     <Button href="/digital/websites">Website design & build <ChevronRight size={iconSize} /></Button>
                   </Col>
-                  <Image unoptimized={true} src={'/textures/texture_4.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
+                  <Image src={'/textures/texture_4.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
                 </Box>
                 <Box background="light" className="basis-full xl:basis-1/3">
                   <Col type="content" className="z-40">
@@ -106,7 +106,7 @@ export default function Home() {
                     </Col>
                     <Button href="/digital/software">Bespoke software <ChevronRight size={iconSize} /></Button>
                   </Col>
-                  <Image unoptimized={true} src={'/textures/texture_5.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
+                  <Image src={'/textures/texture_5.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
                 </Box>
                 <Box background="light" className="basis-full xl:basis-1/3">
                   <Col type="content" className="z-40">
@@ -117,7 +117,7 @@ export default function Home() {
                     </Col>
                     <Button href="/digital/hosting">Fast, reliable hosting <ChevronRight size={iconSize} /></Button>
                   </Col>
-                  <Image unoptimized={true} src={'/textures/texture_6.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
+                  <Image src={'/textures/texture_6.png'} alt="XNC Security - CCTV Services" width={500} height={100} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
                 </Box>
               </Row>
             </Col>

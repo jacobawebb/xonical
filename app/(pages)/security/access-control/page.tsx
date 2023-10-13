@@ -92,7 +92,7 @@ export default function Page() {
                         </Box>
                     </Row>
                 </Col>
-                <Image unoptimized={true} src={'/access_control.png'} alt="XNC Security - CCTV Services" width={0} height={0} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
+                <Image src={'/access_control.png'} alt="XNC Security - CCTV Services" width={0} height={0} className="rounded-md absolute w-full h-full top-0 left-0 opacity-20 object-cover z-0" />
             </Box>
         </Col >
     )

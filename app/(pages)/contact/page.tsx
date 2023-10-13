@@ -48,7 +48,7 @@ export default function Page() {
                         </Col> */}
                     </Col>
                     {/* <div className='w-full h-full absolute top-0 left-0 rounded-md bg-secondary/60 z-10'></div> */}
-                    <Image unoptimized={true} src="/contact_us.png" alt="network" className="rounded-lg object-cover z-0 opacity-30" fill />
+                    <Image src="/contact_us.png" alt="network" className="rounded-lg object-cover z-0 opacity-30" fill />
                 </Box>
             </Col>
         </Row>

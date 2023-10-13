@@ -24,7 +24,7 @@ export default function Navigation() {
             <nav className={`w-full max-w-full flex ${gapLayout} justify-center xl:justify-between items-center flex-wrap xl:flex-nowrap`}>
                 <div className={`flex ${gapLayout} items-center`}>
                     <Link href={'/'} className={`p-6 w-max h-full flex justify-center items-center`}>
-                        <Image unoptimized={true} src={`/for_dark_backgrounds_no_padding.png`} alt="XNC Logo" width={200} height={200} />
+                        <Image src={`/for_dark_backgrounds_no_padding.png`} alt="XNC Logo" width={200} height={200} />
                     </Link>
                 </div>
                 <div className={`w-max items-center justify-end flex gap-6 h-full flex-wrap xl:flex-nowrap`}>
